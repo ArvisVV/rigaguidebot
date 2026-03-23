@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern><set>greetings</set></pattern>
+<template>
+<srai>HELLO</srai>
+</template>
+</category>
+
+<category>
+<pattern>* <set>greetings</set> *</pattern>
+<template>
+<srai>HELLO</srai>
+</template>
+</category>
+
+<category>
+<pattern>MANI SAUC *</pattern>
+<template>
+<srai>SET NAME <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>KAS ES ESMU</pattern>
+<template>
+<srai>GET NAME</srai>
+</template>
+</category>
+
+<category>
+<pattern>KĀ MANI SAUC</pattern>
+<template>
+<srai>GET NAME</srai>
+</template>
+</category>
+
+<category>
+<pattern>KA MANI SAUC</pattern>
+<template>
+<srai>GET NAME</srai>
+</template>
+</category>
+
+<category>
+<pattern>KADS IR MANS VARDS</pattern>
+<template>
+<srai>GET NAME</srai>
+</template>
+</category>
+
+<category>
+<pattern>* MANS VARDS *</pattern>
+<template>
+<srai>GET NAME</srai>
+</template>
+</category>
+
+<category>
+<pattern>* <set>placeswords</set> *</pattern>
+<template>
+<srai>RIGA PLACES</srai>
+</template>
+</category>
+
+<category>
+<pattern>PASTASTI PAR RIGU</pattern>
+<template>
+<srai>RIGA FACT</srai>
+</template>
+</category>
+
+<!-- dialogaa izvēlne -->
+<category>
+<pattern>KO VAR DARIT RIGA</pattern>
+<template>
+Ko vēlies uzzināt par Rīgu?<br/>
+
+1 Apskates vietas<br/>
+2 Muzeji<br/>
+3 Transports<br/>
+4 Fakti
+</template>
+</category>
+
+<category>
+<pattern>* DARIT RIGA *</pattern>
+<template>
+<srai>KO VAR DARIT RIGA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DARĪT RĪGĀ *</pattern>
+<template>
+<srai>KO VAR DARIT RIGA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DARIT * RIGA *</pattern>
+<template>
+<srai>KO VAR DARIT RIGA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DARĪT * RĪGĀ *</pattern>
+<template>
+<srai>KO VAR DARIT RIGA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* DAR*</pattern>
+<template>
+<srai>KO VAR DARIT RIGA</srai>
+</template>
+</category>
+
+<category>
+<pattern>* RIGA *</pattern>
+<template>
+<srai>KO VAR DARIT RIGA</srai>
+</template>
+</category>
+
+<category>
+<pattern>1</pattern>
+<template>
+<srai>RIGA PLACES</srai>
+</template>
+</category>
+
+<category>
+<pattern>2</pattern>
+<template>
+Rīgā ir vairāki muzeji, piemēram:
+Latvijas Nacionālais mākslas muzejs,
+Motormuzejs un Okupācijas muzejs.
+</template>
+</category>
+
+<category>
+<pattern>3</pattern>
+<template>
+Rīgā vari izmantot sabiedrisko transportu:
+autobusus, tramvajus un trolejbusus.
+</template>
+</category>
+
+<category>
+<pattern>4</pattern>
+<template>
+<srai>RIGA FACT</srai>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>
+Piedod, es nesapratu jautājumu. Vari pajautāt par Rīgu vai uzrakstīt "Ko var darīt Rīgā".
+</template>
+</category>
+
+</aiml>

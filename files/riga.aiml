@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>RIGA PLACES</pattern>
+<template>
+Rīgā vari apskatīt Vecrīgu, Brīvības pieminekli un Daugavas krastmalu.
+</template>
+</category>
+
+<category>
+<pattern>RIGA FACT</pattern>
+<template>
+<random>
+<li>Rīga tika dibināta 1201. gadā.</li>
+<li>Rīga ir lielākā pilsēta Baltijā.</li>
+<li>Vecrīga ir UNESCO pasaules mantojuma sarakstā.</li>
+</random>
+</template>
+</category>
+
+</aiml>

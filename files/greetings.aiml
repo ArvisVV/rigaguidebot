@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>HELLO</pattern>
+<template>
+<random>
+<li>Sveiki! Es esmu Rīgas informācijas bots.</li>
+<li>Sveicināti! Varu pastāstīt interesantas lietas par Rīgu.</li>
+<li>Čau! Ko vēlies uzzināt par Rīgu?</li>
+</random>
+</template>
+</category>
+
+</aiml>
